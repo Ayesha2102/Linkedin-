@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background-color: rgb(239, 242, 245);
+}
+
+/* Header Start */
+.headerdiv {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    column-gap: 0px;
+    align-items: center;
+    position: sticky;
+    background-color: white;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 4px 4px 7px #ccc;
+}
+
+.header_LLogo {
+    display: flex;
+    column-gap: 20px;
+}
+
+/* CSS for search box */
+.header_Search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 25px;
+    color: gray;
+    background-color: #eef3f8;
+}
+
+.header_Search>input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+/* CSS for icons "Home, My network, Job, Message, Notification, Me, Work" */
+.header_RLogo {
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.header_options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: rgb(21, 20, 20);
+    cursor: pointer;
+}
+
+.header_options:hover {
+    color: grey;
+    font-weight: 800;
+
+}
+
+.header_options h4 {
+    font-size: 17px;
+    margin-top: 6px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.material-symbols-outlined {
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+}
+
+/* Header Ends */
+
+
+/* Left Side Bar */
+.mains {
+    display: flex;
+    column-gap: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+.L_sb {
+    margin-left: 120px;
+    max-width: 300px;
+    min-width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.L_sb>.top {
+    background-color: #eef3f8;
+    text-align: center;
+    border-bottom: solid 1px rgb(176, 172, 172);
+    box-shadow: 2px 2px 10px #ccc;
+    background-color: rgb(211, 234, 236);
+}
+
+.L_sb>.top img,
+p,
+h3 {
+    margin-top: 15px;
+}
+
+
+
+.L_sb>.middle {
+    background-color: #eef3f8;
+    border-bottom: solid 1px rgb(176, 172, 172);
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.L_sb>.middle p,
+h4,
+a,
+i {
+    margin-left: 10px;
+}
+
+.L_sb>.middle span {
+    float: right;
+    margin-right: 10px;
+}
+
+.L_sb>.middle1 {
+    background-color: #eef3f8;
+    box-shadow: 2px 2px 10px #ccc;
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+.L_sb>.middle1 h4,
+i {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.L_sb>.bottom {
+    margin-top: 25px;
+    background-color: #eef3f8;
+    display: float;
+    border-bottom: solid 1px rgb(176, 172, 172);
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.L_sb>.bottom h4 {
+    margin-left: 10px;
+}
+
+.L_sb>.bottom p {
+    text-align: justify;
+    margin-right: 70px;
+    float: right;
+}
+
+.L_sb>.bottom span {
+    float: right;
+    margin-right: 20px;
+    font-weight: 700;
+}
+
+.L_sb>.bottom1 {
+    background-color: #eef3f8;
+    border-bottom: solid 1px rgb(176, 172, 172);
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.L_sb>.bottom1 h3 {
+    text-align: center;
+    color: rgb(109, 104, 104);
+}
+
+/* Left Side Bar Ends */
+
+
+/* Feed Starts */
+/* .M_sb {
+    max-width: 180%;
+} */
+
+/* Post box starts */
+.M_sb>.start_post {
+    background-color: #eef3f8;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.M_sb>.start_post>.sp_top {
+    display: flex;
+    column-gap: 10px;
+}
+
+.M_sb>.start_post>.sp_top>img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* CSS for start post box */
+.M_sb>.start_post>.sp_top>.post input[type=text] {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+    width: 200%;
+    height: 30px;
+}
+
+/* CSS for buttons "Photo, Video, Event, Write Article" */
+.M_sb>.start_post>.butt input[type=button] {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    border: solid thin rgb(36, 35, 35);
+    outline: none;
+    background: rgb(137, 200, 244);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Post box ends */
+
+/* Post 1 Starts */
+.M_sb>.sp_middle {
+    margin-top: 20px;
+    background-color: #eef3f8;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.M_sb>.sp_middle>.mid1 {
+    margin-left: 10px;
+}
+
+.M_sb>.sp_middle>.mid1>.m1 {
+    display: flex;
+}
+
+.M_sb>.sp_middle img {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.M_sb>.sp_middle>.mid1>.m1 h4,
+h5 {
+    margin-top: 10px;
+}
+
+.M_sb>.sp_middle>.mid1>.m1 {
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.M_sb>.sp_middle>.mid1 {
+    margin-left: 10px;
+}
+
+/* CSS for buttons "Like, Comment, Share, Send" */
+.M_sb>.sp_middle>.mid1>.butt input[type=button] {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all .3s;
+    text-align: center;
+    color: black;
+    border: solid thin rgb(36, 35, 35);
+    outline: none;
+    background: rgb(137, 200, 244);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    column-gap: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Post 1 ends */
+
+/* Post 2 starts */
+.M_sb>.sp_middle1 {
+    margin-top: 20px;
+    background-color: #eef3f8;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.M_sb>.sp_middle1>.mid2>.m2 {
+    display: flex;
+}
+
+.M_sb>.sp_middle1>.mid2>.m2 img,
+h5,
+
+h4 {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.M_sb>.sp_middle1>.mid2 p,
+img {
+    margin-left: 10px;
+}
+
+/* CSS for buttons "Like, Comment, Share, Send" */
+.M_sb>.sp_middle1>.mid2>.butt input[type=button] {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all .3s;
+    text-align: center;
+    color: black;
+    border: solid thin rgb(36, 35, 35);
+    outline: none;
+    background: rgb(137, 200, 244);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    column-gap: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Post 2 ends */
+
+/* Post 3 starts */
+.M_sb>.sp_middle2 {
+    margin-top: 20px;
+    background-color: #eef3f8;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.M_sb>.sp_middle2>.mid3>.m3 {
+    display: flex;
+
+}
+
+.M_sb>.sp_middle2>.mid3>.m3 img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* .M_sb>.sp_middle2>.mid3>.m3 h5 {
+    margin-top: 20px;
+} */
+
+.M_sb>.sp_middle2>.mid3 p,
+a {
+    margin-left: 10px;
+}
+
+.M_sb>.sp_middle2>.mid3 p+a {
+    margin-left: 10px;
+}
+
+/* CSS for buttons "Like, Comment, Share, Send" */
+.M_sb>.sp_middle2>.mid3>.butt input[type=button] {
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: all .3s;
+    text-align: center;
+    color: black;
+    border: solid thin rgb(36, 35, 35);
+    outline: none;
+    background: rgb(137, 200, 244);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    column-gap: 50px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* Post 3 ends */
+
+/* Right bar starts */
+.R_sb {
+    max-width: 400px;
+    min-width: 150px;
+    column-gap: 10px;
+    margin-left: 10px;
+}
+
+.R_sb>.R_top {
+    max-width: 400px;
+    min-width: 200px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    background-color: #eef3f8;
+    box-shadow: 2px 2px 10px #ccc;
+}
+
+.R_sb>.R_top ul,
+li,
+h3 {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.R_sb>.R_bottom {
+    background-color: #eef3f8;
+    box-shadow: 2px 2px 10px #ccc;
+    margin-top: 20px;
+}
+
+.R_sb>.R_bottom p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.R_sb>.R_bottom img {
+    margin-left: 50px;
+}
+
+/* CSS for follow button */
+.R_sb>.R_bottom input[type=button] {
+    padding: 10px;
+    margin-left: 120px;
+    background-color: white;
+    border-radius: 20px;
+    color: rgb(57, 170, 226);
+    cursor: pointer;
+    margin-bottom: 10px;
+
+}
+
+/* Right bars ends */
